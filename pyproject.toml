@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vpce-operator"
+version = "0.1.0"
+description = "A k8s operator to help provision VPC endpoints"
+authors = ["Zane Williamson <zane@brodate.net>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+boto3 = "^1.9"
+kopf = "^0.21.0"
+kubernetes = "^10.0"
+
+[tool.poetry.dev-dependencies]
+pylint-common = "^0.2.5"
+autoflake = "^1.3"
+flake8 = "^3.7"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

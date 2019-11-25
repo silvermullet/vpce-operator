@@ -1,0 +1,31 @@
+# Not supported yet
+apiVersion: silvermullet.com/v1beta1
+kind: VPCEndpoint
+metadata:
+  name: external-service-endpoint-sg-custom-generated
+  namespace: external
+spec:
+  vpc_endpoint_service_id: vpce-svc-02d44aaf16f155543
+  security_group_type: custom
+  subnet_ids:
+    - subnet-046248f44c6724679
+    - subnet-046248f44c6712345
+    - subnet-046248f44c5688888
+  security_group_ingress:
+    - protocol: tcp
+      to_port: 0
+      from_port: 0
+      cidr_blocks:
+        - 10.0.0.0/16
+    - protocol: udp
+      to_port: 0
+      from_port: 0
+      cidr_blocks:
+        - 10.0.0.0/16
+  security_group_egress:
+    - protocol: -1
+      to_port: 0
+      from_port: 0
+      cidr_blocks:
+        - 0.0.0.0/0
+  vpc_id: vpc-0139311ccb6d12345

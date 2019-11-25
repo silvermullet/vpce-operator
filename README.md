@@ -1,6 +1,6 @@
 # AWS vpce-operator
 
-The __Vpce Operator__ manages the deployment of AWS VPC Endpoints and supporting Kubernetes Service [ExternalNames](https://kubernetes.io/docs/concepts/services-networking/service/#externalname) . It is built on top of the [Kopf](https://github.com/zalando-incubator/kopf) framework.
+The __Vpce Operator__ manages the deployment of AWS VPC Endpoints and supporting Kubernetes Service [ExternalNames](https://kubernetes.io/docs/concepts/services-networking/service/#externalname). It is built on top of the [Kopf](https://github.com/zalando-incubator/kopf) framework.
 
 The project is currently in beta (`v1beta1`), and while we do not anticipate changing the API in backwards-incompatible ways there is no such guarantee yet.
 

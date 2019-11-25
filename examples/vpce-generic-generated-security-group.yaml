@@ -1,0 +1,14 @@
+apiVersion: silvermullet.com/v1beta1
+kind: VPCEndpoint
+metadata:
+  name: external-service-endpoint
+  namespace: external
+spec:
+  region: us-west-2
+  vpc_endpoint_service_id: com.amazonaws.vpce.us-west-2.vpce-svc-0abc437c186123456
+  security_group_type: generated
+  vpc_id: vpc-01393d9ccb6d12345
+  subnet_ids:
+    - subnet-07e56cb8d19c12345
+    - subnet-030aa367b20323456
+    - subnet-03312c20bc5034567

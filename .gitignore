@@ -1,0 +1,4 @@
+.vscode/
+configs/operator/generated-vpce-operator.yaml
+configs/rbac/generated-vpce-operator-rbac.yaml
+configs/operator/generated-vpce-operator.yaml
