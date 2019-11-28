@@ -30,11 +30,11 @@ podAnnotations:
 
 ## Helm Chart
 
-[vpce-operator-helm-chart](https://github.com/trulia/vpce-operator-helm-chart)
+[vpce-operator-helm-chart](https://github.com/silvermullet/vpce-operator-helm-chart)
 
 Install Helm repo
 ```bash
-helm repo add vpce-operator https://trulia.github.io/vpce-operator-helm-chart/
+helm repo add vpce-operator https://silvermullet.github.io/vpce-operator-helm-chart/
 helm search vpce-operator
 ```
 
